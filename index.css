@@ -16,6 +16,7 @@ html,body{
     justify-content: center;
     align-items: center;
    margin-top: 30px;
+   padding: 20px;
 }
 .title-img{
     height: 200px;
@@ -58,7 +59,6 @@ html,body{
 }
 #display li{
     background-color: whitesmoke;
-    border-radius: 5px;
     padding: 15px;
     width: 350px;
     
