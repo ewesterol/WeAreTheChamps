@@ -1,0 +1,40 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #1B1923;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.title{
+    color: whitesmoke;
+    line-height: 10px;
+    font-size: 27px;
+}
+#endorseField{
+    background-color: #44415B;
+    padding: 15px;
+
+    border-radius: 8px;
+    font-size: large;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+}
+.publish-btn{
+    background-color: #04ABF7;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 370px;
+    color: black;
+    font-size: 20px;
+}
