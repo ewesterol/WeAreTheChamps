@@ -35,19 +35,23 @@ html,body{
     color: whitesmoke;
     outline: none;
     border: none;
+    margin-bottom: 10px;
 }
 .toFrom{
     display: flex;
     justify-content: space-between;
-    width: 370px;
+   gap: 15px;
+    margin-bottom: 10px;
 }
 .toFromBtn{
-    padding: 10px 20px;
+    padding: 10px 14px;
     border: none;
     border-radius: 5px;
     outline: none;
     background-color: #44415B;
     text-align: center;
+    color: whitesmoke;
+   font-size: 12px;
 }
 .publish-btn{
     background-color: #04ABF7;
