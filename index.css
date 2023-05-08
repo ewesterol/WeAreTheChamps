@@ -15,8 +15,9 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   margin-top: 30px;
+   margin: 0 auto;
    padding: 20px;
+   width: 620px;
 }
 .title-img{
     height: 200px;
@@ -25,6 +26,7 @@ html,body{
     color: whitesmoke;
     line-height: 10px;
     font-size: 27px;
+    text-shadow: 0px 2px black;
 }
 #endorseField{
     background-color: #44415B;
@@ -40,8 +42,8 @@ html,body{
 .toFrom{
     display: flex;
     justify-content: space-between;
-   gap: 15px;
     margin-bottom: 10px;
+    width: 370px;
 }
 .toFromBtn{
     padding: 10px 14px;
@@ -52,6 +54,7 @@ html,body{
     text-align: center;
     color: whitesmoke;
    font-size: 12px;
+   width: 140px;
 }
 .publish-btn{
     background-color: #04ABF7;
