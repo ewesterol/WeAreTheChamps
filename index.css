@@ -36,6 +36,19 @@ html,body{
     outline: none;
     border: none;
 }
+.toFrom{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+.toFromBtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #44415B;
+    text-align: center;
+}
 .publish-btn{
     background-color: #04ABF7;
     padding: 15px 10px;

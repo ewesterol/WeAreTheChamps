@@ -9,7 +9,7 @@ import {
 
 const appSettings = {
   databaseURL:
-    "https://realtime-database-f5486-default-rtdb.europe-west1.firebasedatabase.app/",
+    "https://we-are-the-champions-c66f4-default-rtdb.europe-west1.firebasedatabase.app/",
 };
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
