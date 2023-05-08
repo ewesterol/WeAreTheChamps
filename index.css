@@ -6,13 +6,19 @@ html,body{
     user-select: none;
     -webkit-user-select: none;
     background-color: #1B1923;
+   
+   
+  
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+   margin-top: 30px;
+}
+.title-img{
+    height: 200px;
 }
 .title{
     color: whitesmoke;
@@ -22,9 +28,9 @@ html,body{
 #endorseField{
     background-color: #44415B;
     padding: 15px;
-
+    font-size: 15px;
     border-radius: 8px;
-    font-size: large;
+    width: 345px;
     color: whitesmoke;
     outline: none;
     border: none;
@@ -37,4 +43,23 @@ html,body{
     width: 370px;
     color: black;
     font-size: 20px;
+}
+.endorsements{
+    color: whitesmoke;
+    font-size: 20px;
+}
+#display{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: red;
+}
+#display li{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+    width: 350px;
+    
 }
