@@ -18,10 +18,16 @@ const endorsementInDB = ref(database, "endorsement");
 const display = document.getElementById("display");
 const publishBtn = document.getElementById("publish-btn");
 const endorseField = document.getElementById("endorseField");
+const fromBtn = document.getElementById("from-btn");
+const toBtn = document.getElementById("to-btn");
 
 publishBtn.addEventListener("click", () => {
-  let inputValue = endorseField.value;
-  push(endorsementInDB, inputValue);
+  let userObject = {
+    body: endorseField.value,
+    fromm: fromBtn.value,
+    to: toBtn.value,
+  };
+  push(endorsementInDB, userObject);
   clearTextArea();
 });
 
@@ -43,7 +49,7 @@ onValue(endorsementInDB, (snapshot) => {
 function appendEndorsements(item) {
   let endorsementID = item[0];
   let endorsementValue = item[1];
-  let newDisplay = document.createElement("li");
+  let newDisplay = document.createElement("div");
   newDisplay.textContent = endorsementValue;
   newDisplay.addEventListener("dblclick", () => {
     let exactID = ref(database, `endorsement/${endorsementID}`);
